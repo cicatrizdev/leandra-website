@@ -15,6 +15,10 @@ class CustomDocument extends Document {
 						href='https://fonts.googleapis.com/css2?family=Belleza&family=Montserrat&display=swap'
 						rel='stylesheet'
 					/>
+					<meta
+						name='google-site-verification'
+						content='2gnRzbmn_9B1HAoSJNJKCSWaChzTDYBA2lEN25VlDXw'
+					/>
 				</Head>
 				<body>
 					<Main />

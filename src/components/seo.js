@@ -31,6 +31,7 @@ export default function SEO({
 			{metaData.map(({ name, content }, i) => (
 				<meta key={i} name={name} content={content} />
 			))}
+			<meta name='google-site-verification' content='2gnRzbmn_9B1HAoSJNJKCSWaChzTDYBA2lEN25VlDXw' />
 		</Head>
 	);
 }
