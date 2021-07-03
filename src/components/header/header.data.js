@@ -9,6 +9,6 @@ export default [
 	},
 	{
 		path: 'contact',
-		label: 'Contato',
+		label: 'Contatos',
 	},
 ];

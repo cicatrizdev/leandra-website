@@ -2,7 +2,7 @@
 import { jsx, Box, Container, Grid } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Service from 'components/cards/service';
-import icon1 from 'assets/images/services/talk.svg';
+import icon1 from 'assets/images/services/online.svg';
 import icon2 from 'assets/images/services/psy.svg';
 import icon3 from 'assets/images/services/heart.svg';
 import icon4 from 'assets/images/services/lock.svg';
@@ -60,7 +60,7 @@ const Services = () => {
 					))}
 				</Grid>
 				<SectionHeading
-					slogan='FAQ'
+					slogan='Informações adicionais'
 					title='Para ajudar nas suas dúvidas'
 					style={{ paddingTop: '95px' }}
 				/>
