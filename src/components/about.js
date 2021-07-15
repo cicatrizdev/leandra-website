@@ -38,7 +38,7 @@ const styles = {
 		borderRadius: 10,
 		marginTop: '100px',
 		backgroundColor: 'white',
-		boxShadow: '0px 24px 50px rgba(54, 91, 125, 0.05)',
+		boxShadow: '0px 24px 50px rgba(54, 91, 125, 0.20)',
 		p: ['26px', null, null, '35px 40px 50px'],
 		position: 'relative',
 		maxWidth: '800px',

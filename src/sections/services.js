@@ -83,7 +83,7 @@ const styles = {
 	},
 	serviceGrid: {
 		backgroundColor: 'white',
-		boxShadow: '0px 0px 25px rgba(54, 91, 125, 0.04)',
+		boxShadow: '0px 0px 25px rgba(54, 91, 125, 0.20)',
 		borderRadius: 10,
 		gap: [8, null, null, '60px 40px', '50px 30px', '60px 40px'],
 		justifyContent: 'center',

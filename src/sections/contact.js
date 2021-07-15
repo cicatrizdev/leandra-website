@@ -52,7 +52,7 @@ const StyledLink = styled(Link)`
 const Contact = () => {
 	return (
 		<Box as='section' id='contact' sx={styles.section}>
-			<Container style={{ height: '60vh' }}>
+			<Container style={{ height: '60vh', marginBottom: '120px' }}>
 				<SectionHeading sx={styles.heading} slogan='Contatos' title='Agende agora comigo' />
 				<Grid sx={styles.serviceGrid}>
 					{data.map((item) => (
@@ -84,12 +84,12 @@ const styles = {
 	},
 	serviceGrid: {
 		// backgroundColor: 'white',
-		boxShadow: '0px 0px 25px rgba(54, 91, 125, 0.04)',
+		boxShadow: '0px 0px 25px rgba(54, 91, 125, 0.20)',
 		borderRadius: 10,
 		gap: [8, null, null, '60px 40px', '50px 30px', '60px 40px'],
 		justifyContent: 'center',
 		gridTemplateColumns: [
-			'repeat(2, 150px)',
+			'repeat(2, 100px)',
 			null,
 			null,
 			'repeat(4, 150px)',
