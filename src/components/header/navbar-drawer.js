@@ -54,6 +54,7 @@ const NavbarDrawer = () => {
 								smooth={true}
 								offset={-70}
 								duration={500}
+								onClick={toggleHandler}
 							>
 								{label}
 							</Link>

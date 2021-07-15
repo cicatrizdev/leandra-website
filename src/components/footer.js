@@ -7,7 +7,7 @@ import Logo from 'components/logo';
 const menuItems = [
 	{
 		path: '#home',
-		label: 'Voltar ao Inicio',
+		label: 'Voltar ao topo 👆',
 	},
 ];
 

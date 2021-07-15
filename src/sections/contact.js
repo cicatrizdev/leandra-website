@@ -52,7 +52,7 @@ const StyledLink = styled(Link)`
 const Contact = () => {
 	return (
 		<Box as='section' id='contact' sx={styles.section}>
-			<Container>
+			<Container style={{ height: '60vh' }}>
 				<SectionHeading sx={styles.heading} slogan='Contatos' title='Agende agora comigo' />
 				<Grid sx={styles.serviceGrid}>
 					{data.map((item) => (
